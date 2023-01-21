@@ -1,0 +1,8 @@
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+#Write your code below this line 
+w=float(weight)
+h=float(height)
+r=int(w/h**2)
+print(r)
