@@ -1,0 +1,13 @@
+a = input("a: ")
+b = input("b: ")
+
+####################################
+#Write your code below this line 👇
+c=a
+a=b
+b=c
+#Write your code above this line 👆
+####################################
+
+print("a: " + a)
+print("b: " + b)
