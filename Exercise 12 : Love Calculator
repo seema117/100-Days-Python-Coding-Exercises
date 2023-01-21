@@ -1,0 +1,39 @@
+print("Welcome to the Love Calculator!")
+he= input("What is your name? \n")
+she= input("What is their name? \n")
+
+#Write your code below this line 
+name1=he.lower()
+name2=she.lower()
+s1=0
+s2=0
+s1+=name1.count("t")
+s1+=name1.count("r")
+s1+=name1.count("u")
+s1+=name1.count("e")
+s1+=name2.count("t")
+s1+=name2.count("r")
+s1+=name2.count("u")
+s1+=name2.count("e")
+
+s2+=name1.count("l")
+s2+=name1.count("o")
+s2+=name1.count("v")
+s2+=name1.count("e")
+s2+=name2.count("l")
+s2+=name2.count("o")
+s2+=name2.count("v")
+s2+=name2.count("e")
+
+s3 = str(s1)+str(s2)
+
+s4 = int(s3)
+
+if s4 < 10 or s4>90:
+    print(f"Your score is {s4}, you go together like coke and mentos.")
+         
+else:
+    if s4>40 and s4<50:
+        print(f"Your score is {s4}, you are alright together.")
+    else:
+         print(f"Your score is {s4}.") 
